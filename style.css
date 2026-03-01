@@ -13,10 +13,18 @@ html,body{
     margin-top: 20vh;
     margin-left: 26vh;
     border-radius: 5%;
+   position: relative;
 
 }
+.image{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 50px;
+}
 .card .left1{
-    background-color: green;
+    background-color: darkred;
     height: 40vh;
     width: 35vh;
     border-radius: 5% 0 0 0;
@@ -34,7 +42,7 @@ html,body{
     padding-bottom: 40px;
 }
 .card .left2{
-    background-color: green;
+    background-color: darkred;
     margin-top: 20px;
     height: 18vh;
     width: 35vh;
@@ -57,7 +65,7 @@ html,body{
     align-items: center;
     gap: 15px;
     flex-direction: row;
-    color: white;
+    color: yellow;
     cursor: pointer;
     font-size: 20px;
     margin-right: 15px;
