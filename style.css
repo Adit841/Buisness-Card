@@ -16,6 +16,48 @@ html,body{
    position: relative;
 
 }
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 65%;
+}
+.right .name{
+    position: absolute;
+    right: 55%;
+    top: 20%;
+    transform: translate(50%, -50%);
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.right .prof{
+    position: absolute;
+    right: 29%;
+    top: 30%;
+    /* font-size: 20px; */
+}
+.right .about{
+    position: absolute;
+
+    right: 12%;
+    top: 40%;
+     width: 50%;
+     font-size: 20px;
+}
+.work{
+    position: absolute;
+    right: 35%;
+    top: 60%;
+    font-size: 20px;
+}
+.list{
+    position: absolute;
+    right: 47%;
+    top: 65%;
+    font-size: 20px;
+}
 .image{
     position: absolute;
     left: 30%;
@@ -73,4 +115,49 @@ html,body{
 
 .card .left2 .socials:hover{
     opacity:0.7;
+}
+.shape1{
+    position: absolute;
+    background-color:rgb(249, 249, 149);
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
+.shape2{
+background-color: rgb(249, 249, 149);
+position: absolute;
+height: 20px;
+width: 50px;
+top: 15%;
+left: 43%;
+z-index: 1;
+}
+.shape3{
+position: absolute;
+    background-color:rgb(249, 249, 149);
+    width: 50px;
+    height: 50px;
+    top: 79%;
+    left: 28%;
+    z-index: 1;
+}
+.shape4{
+    position: absolute;
+    background-color: darkred;
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    left: 42.9%;
+    border-radius: 50%;
+}
+.shape5{
+    position: absolute;
+    background-color: darkred;
+    width: 50px;
+    height: 50px;
+ 
+    left: 96%;
+    border-radius: 0 0 100px 100px;
 }
